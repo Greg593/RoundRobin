@@ -1,0 +1,35 @@
+Para el algoritmo RR (Round Robin) se tiene principios fundamentales:
+
+1-. El Tiempo de llegada de todos los procesos es cero.
+2-. A cada proceso se les asigna un intervalo de tiempo, llamado Quantum.
+3-. Cada proceso se ejecuta el tiempo que tenga el Quantum.
+4-. Cuando el proceso se ejecuta en la CPU, pueden ocurrir dos cosas:
+	4.1-. Que sea menor: El proceso termina antes del Quantum.
+	4.2-. Que se mayor: En este caso el proceso es expulsado y pasa a formar parte de los procesos en espera.
+
+Para realizar este proyecto se necesita realizar lo siguiente:
+* Solicitar el número de Procesos.
+* Solicitar el número del Quantum.
+* Realizar el diagrama de Gantt.
+* Realizar el Tiempo de Espera para c/proceso. (Promedio)
+* Realizar el Tiempo de Respuesta para c/proceso. (Promedio)
+* Colocar el número de cambios de Contexto.
+
+Ejemplo:
+
+Proceso 	Ráfaga de CPU
+Nexus		10
+Dev 		4
+Q=5
+
+Nexus	Dev		Nexus
+0     5      9      14  
+
+TE(Nexus) = 0 + 4 = 4
+TE(DEV) = 5
+
+TR(Nexus) = 14
+TR(DEV) = 9
+
+Cambios de Contexto = 3
+
