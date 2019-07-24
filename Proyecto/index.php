@@ -15,7 +15,7 @@
             	<h3>Algoritmo de Round Robin</h3>
                 <h4>By Víctor Morales</h4>
             	<div class="col-md-04"><p>
-            		Este es uno de los algoritmos más antiguos, sencillos y equitativos en el reparto de la CPU entre los procesos, muy válido para entornos de tiempo compartido. <br> Cada proceso tiene asignado un intervalo de tiempo de ejecución, llamado cuantum o cuanto. Si el proceso agota su cuantum de tiempo, se elige a otro proceso para ocupar la CPU. <br> Si el proceso se bloquea o termina antes de agotar su cuantum también se alterna el uso de la CPU. El proceso de Round Robín es muy fácil de implementar. <br>Todo lo que necesita el planificador es mantener una lista de los procesos listos.
+            		Este es uno de los algoritmos más antiguos, sencillos y equitativos en el reparto de la CPU entre los procesos, muy válido para entornos de tiempo compartido. <br> Cada proceso tiene asignado un intervalo de tiempo de ejecución, llamado cuantum o cuanto. Si el proceso agota su cuantum de tiempo, se elige a otro proceso para ocupar la CPU. <br> Si el proceso se bloquea o termina antes de agotar su cuantum también se alterna el uso de la CPU. El proceso de Round Robín es muy fácil de implementar. <br>Todo lo que necesita el planificador es mantener una lista de los procesos listos. <br> Así que vamos con todo.
             	</p></div>
             	<h4>Para el algoritmo RR (Round Robin) se tiene principios fundamentales:</h4>         
 				1-. El Tiempo de llegada de todos los procesos es cero. <br>
